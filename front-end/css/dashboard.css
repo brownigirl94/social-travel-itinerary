@@ -1,3 +1,4 @@
+
 .bg-image {
 	background: url("../images/travel2_resized.jpg") no-repeat fixed center; 
 	background-size: cover; 
@@ -10,13 +11,13 @@
 }
 
 .title {
-	font-family: 'Quicksand', sans-serif;
-	font-size: 50px;
+	font-family: 'Great Vibes', cursive;
+	font-size: 70px;
 	color: #fff;
 	padding-left: 60px;
 	padding-top: 80px;
 	float: left;
-	text-shadow: 2px 2px 4px #000000;
+	text-shadow: 1px 1px 1px #000000;
 }
 
 .navtitle {
@@ -158,12 +159,62 @@
 	margin-top: -20px;
 }
 
+.p1 {
+	background-image: url("../images/person.jpg");
+}
+
+.p2 {
+	background-image: url("../images/profilepics/gillian.jpg");
+}
+
+.p3 {
+	background-image: url("../images/profilepics/hyemi.jpg");
+}
+
+.p4 {
+	background-image: url("../images/profilepics/julia.jpg");
+}
+
+.p5 {
+	background-image: url("../images/profilepics/me.jpg");
+}
+
+.p6 {
+	background-image: url("../images/profilepics/michelle.jpg");
+}
+
+.p7 {
+	background-image: url("../images/profilepics/person1.jpg");
+}
+
+.p8 {
+	background-image: url("../images/profilepics/person2.jpg");
+}
+
+.p9 {
+	background-image: url("../images/profilepics/person3.jpg");
+}
+
+.p10 {
+	background-image: url("../images/profilepics/person4.jpg");
+}
+
+.p11 {
+	background-image: url("../images/profilepics/person5.jpg");
+}
+
+.p12 {
+	background-image: url("../images/profilepics/person6.jpg");
+}
+
+.p13 {
+	background-image: url("../images/profilepics/person7.jpg");
+}
 
 .image {
   width: 60px;
   height: 60px;
   border-radius: 50%; /*don't forget prefixes*/
-  background-image: url("../images/person.jpg");
   background-position: center center;
   /* as mentioned by Vad: */
   background-size: cover;
