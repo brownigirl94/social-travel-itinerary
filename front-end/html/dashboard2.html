@@ -10,6 +10,19 @@
 </head>
 
 <body>
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script type="text/javascript">
+    	$(function(){
+   			 $('.star').on('click',function(){
+   			 	console.log("this happened");
+        		$('.star').toggleClass('glyphicon-star-empty'); 
+        		$('.star').toggleClass('glyphicon-star');
+    			});
+		});
+    </script> 
+
+
 	<div class ="bg-image title">Michelle's Itinerary</div> 
 	<div class ="container-fluid">
 			<ul class= "nav nav-tabs">
@@ -22,15 +35,15 @@
 			</ul>
 
 	</div> 
-
-
+		
 	<div id="wrapper">
 	<div id="columns">
 		
 
 		<div class="pin">
-			<img src="../Images/food6.jpg" />
-			<div class ="container-fluid">
+			<div class="star glyphicon glyphicon-star-empty"></div>
+			<img src="../Images/photo1.png" />
+			<div class ="container-fluid cardcontent">
 				<div class ="image"></div>
 				<div class = "description">
 					<div class ="location">2235 3rd Street, San Francisco</div>
@@ -41,8 +54,9 @@
 		</div>
 	
 		<div class="pin">
-			<img src="../Images/travel2.jpg" />
-			<div class ="container-fluid">
+			<div class="star glyphicon glyphicon-star-empty"></div>
+			<img src="../Images/photo2.png" />
+			<div class ="container-fluid cardcontent">
 				<div class ="image"></div>
 				<div class = "description">
 					<div class ="location">2235 3rd Street, San Francisco</div>
@@ -53,8 +67,9 @@
 		</div>
 	
 		<div class="pin">
-			<img src="http://cssdeck.com/uploads/media/items/6/6f3nXse.png" />
-			<div class ="container-fluid">
+			<div class="star glyphicon glyphicon-star-empty"></div>
+			<img src="../Images/photo3.png" />
+			<div class ="container-fluid cardcontent">
 				<div class ="image"></div>
 				<div class = "description">
 					<div class ="location">2235 3rd Street, San Francisco</div>
@@ -65,8 +80,126 @@
 		</div>
 	
 		<div class="pin">
+			<div class="star glyphicon glyphicon-star-empty"></div>
+			<img src="../Images/photo4.png" />
+			<div class ="container-fluid cardcontent">
+				<div class ="image"></div>
+				<div class = "description">
+					<div class ="location">2235 3rd Street, San Francisco</div>
+					<div class ="name">from Amy Saper</div>
+					<div class ="status">Nullam eget lectus augue. Donec eu sem sit amet ligula faucibus suscipit.</div>
+				</div>
+			</div>
+		</div>
+	
+		<div class="pin">
+			<div class="star glyphicon glyphicon-star-empty"></div>
+			<img src="../Images/photo5.png" />
+			<div class ="container-fluid cardcontent">
+				<div class ="image"></div>
+				<div class = "description">
+					<div class ="location">2235 3rd Street, San Francisco</div>
+					<div class ="name">from Amy Saper</div>
+					<div class ="status">Nullam eget lectus augue. Donec eu sem sit amet ligula faucibus suscipit.</div>
+				</div>
+			</div>
+		</div>
+	
+		<div class="pin">
+			<div class="star glyphicon glyphicon-star-empty"></div>
+			<img src="../Images/photo6.png" />
+			<div class ="container-fluid cardcontent">
+				<div class ="image"></div>
+				<div class = "description">
+					<div class ="location">2235 3rd Street, San Francisco</div>
+					<div class ="name">from Amy Saper</div>
+					<div class ="status">Nullam eget lectus augue. Donec eu sem sit amet ligula faucibus suscipit.</div>
+				</div>
+			</div>
+		</div>	
+		
+		<div class="pin">
+			<div class="star glyphicon glyphicon-star-empty"></div>
+			<img src="../Images/photo7.png" />
+			<div class ="container-fluid cardcontent">
+				<div class ="image"></div>
+				<div class = "description">
+					<div class ="location">2235 3rd Street, San Francisco</div>
+					<div class ="name">from Amy Saper</div>
+					<div class ="status">Nullam eget lectus augue. Donec eu sem sit amet ligula faucibus suscipit.</div>
+				</div>
+			</div>
+		</div>
+	
+		<div class="pin">
+			<div class="star glyphicon glyphicon-star-empty"></div>
+			<img src="../Images/photo8.png" />
+			<div class ="container-fluid cardcontent">
+				<div class ="image"></div>
+				<div class = "description">
+					<div class ="location">2235 3rd Street, San Francisco</div>
+					<div class ="name">from Amy Saper</div>
+					<div class ="status">Nullam eget lectus augue. Donec eu sem sit amet ligula faucibus suscipit.</div>
+				</div>
+			</div>
+		</div>
+	
+		<div class="pin">
+			<div class="star glyphicon glyphicon-star-empty"></div>
+			<img src="../Images/photo9.png" />
+			<div class ="container-fluid cardcontent">
+				<div class ="image"></div>
+				<div class = "description">
+					<div class ="location">2235 3rd Street, San Francisco</div>
+					<div class ="name">from Amy Saper</div>
+					<div class ="status">Nullam eget lectus augue. Donec eu sem sit amet ligula faucibus suscipit.</div>
+				</div>
+			</div>
+		</div>
+	
+		<div class="pin">
+			<div class="star glyphicon glyphicon-star-empty"></div>
+			<img src="../Images/photo10.png" />
+			<div class ="container-fluid cardcontent">
+				<div class ="image"></div>
+				<div class = "description">
+					<div class ="location">2235 3rd Street, San Francisco</div>
+					<div class ="name">from Amy Saper</div>
+					<div class ="status">Nullam eget lectus augue. Donec eu sem sit amet ligula faucibus suscipit.</div>
+				</div>
+			</div>
+		</div>
+	
+		<div class="pin">
+			<div class="star glyphicon glyphicon-star-empty"></div>
+			<img src="../Images/photo11.png" />
+			<div class ="container-fluid cardcontent">
+				<div class ="image"></div>
+				<div class = "description">
+					<div class ="location">2235 3rd Street, San Francisco</div>
+					<div class ="name">from Amy Saper</div>
+					<div class ="status">Nullam eget lectus augue. Donec eu sem sit amet ligula faucibus suscipit.</div>
+				</div>
+			</div>
+		</div>
+	
+		<div class="pin">
+			<div class="star glyphicon glyphicon-star-empty"></div>
+			<img src="../Images/photo12.png" />
+			<div class ="container-fluid cardcontent">
+				<div class ="image"></div>
+				<div class = "description">
+					<div class ="location">2235 3rd Street, San Francisco</div>
+					<div class ="name">from Amy Saper</div>
+					<div class ="status">Nullam eget lectus augue. Donec eu sem sit amet ligula faucibus suscipit.</div>
+				</div>
+			</div>
+		</div>	
+		
+		<div class="pin">
+			<div class="star glyphicon glyphicon-star-empty"></div>
 			<img src="../Images/food1.jpg" />
-			<div class ="container-fluid">
+			<div class ="container-fluid cardcontent">
 				<div class ="image"></div>
 				<div class = "description">
 					<div class ="location">2235 3rd Street, San Francisco</div>
@@ -77,116 +210,9 @@
 		</div>
 	
 		<div class="pin">
-			<img src="http://cssdeck.com/uploads/media/items/1/1swi3Qy.png" />
-			<div class ="container-fluid">
-				<div class ="image"></div>
-				<div class = "description">
-					<div class ="location">2235 3rd Street, San Francisco</div>
-					<div class ="name">from Amy Saper</div>
-					<div class ="status">Nullam eget lectus augue. Donec eu sem sit amet ligula faucibus suscipit.</div>
-				</div>
-			</div>
-		</div>
-	
-		<div class="pin">
-			<img src="../Images/food7.jpg" />
-			<div class ="container-fluid">
-				<div class ="image"></div>
-				<div class = "description">
-					<div class ="location">2235 3rd Street, San Francisco</div>
-					<div class ="name">from Amy Saper</div>
-					<div class ="status">Nullam eget lectus augue. Donec eu sem sit amet ligula faucibus suscipit.</div>
-				</div>
-			</div>
-		</div>	
-		
-		<div class="pin">
-			<img src="../Images/food2.jpg" />
-			<div class ="container-fluid">
-				<div class ="image"></div>
-				<div class = "description">
-					<div class ="location">2235 3rd Street, San Francisco</div>
-					<div class ="name">from Amy Saper</div>
-					<div class ="status">Nullam eget lectus augue. Donec eu sem sit amet ligula faucibus suscipit.</div>
-				</div>
-			</div>
-		</div>
-	
-		<div class="pin">
-			<img src="../Images/food3.jpg" />
-			<div class ="container-fluid">
-				<div class ="image"></div>
-				<div class = "description">
-					<div class ="location">2235 3rd Street, San Francisco</div>
-					<div class ="name">from Amy Saper</div>
-					<div class ="status">Nullam eget lectus augue. Donec eu sem sit amet ligula faucibus suscipit.</div>
-				</div>
-			</div>
-		</div>
-	
-		<div class="pin">
-			<img src="http://cssdeck.com/uploads/media/items/8/8kEc1hS.png" />
-			<div class ="container-fluid">
-				<div class ="image"></div>
-				<div class = "description">
-					<div class ="location">2235 3rd Street, San Francisco</div>
-					<div class ="name">from Amy Saper</div>
-					<div class ="status">Nullam eget lectus augue. Donec eu sem sit amet ligula faucibus suscipit.</div>
-				</div>
-			</div>
-		</div>
-	
-		<div class="pin">
-			<img src="http://cssdeck.com/uploads/media/items/2/2v3VhAp.png" />
-			<div class ="container-fluid">
-				<div class ="image"></div>
-				<div class = "description">
-					<div class ="location">2235 3rd Street, San Francisco</div>
-					<div class ="name">from Amy Saper</div>
-					<div class ="status">Nullam eget lectus augue. Donec eu sem sit amet ligula faucibus suscipit.</div>
-				</div>
-			</div>
-		</div>
-	
-		<div class="pin">
-			<img src="http://cssdeck.com/uploads/media/items/1/1swi3Qy.png" />
-			<div class ="container-fluid">
-				<div class ="image"></div>
-				<div class = "description">
-					<div class ="location">2235 3rd Street, San Francisco</div>
-					<div class ="name">from Amy Saper</div>
-					<div class ="status">Nullam eget lectus augue. Donec eu sem sit amet ligula faucibus suscipit.</div>
-				</div>
-			</div>
-		</div>
-	
-		<div class="pin">
-			<img src="../Images/food4.jpg" />
-			<div class ="container-fluid">
-				<div class ="image"></div>
-				<div class = "description">
-					<div class ="location">2235 3rd Street, San Francisco</div>
-					<div class ="name">from Amy Saper</div>
-					<div class ="status">Nullam eget lectus augue. Donec eu sem sit amet ligula faucibus suscipit.</div>
-				</div>
-			</div>
-		</div>	
-		
-		<div class="pin">
-			<img src="http://cssdeck.com/uploads/media/items/2/2v3VhAp.png" />
-			<div class ="container-fluid">
-				<div class ="image"></div>
-				<div class = "description">
-					<div class ="location">2235 3rd Street, San Francisco</div>
-					<div class ="name">from Amy Saper</div>
-					<div class ="status">Nullam eget lectus augue. Donec eu sem sit amet ligula faucibus suscipit.</div>
-				</div>
-			</div>
-		</div>
-	
-		<div class="pin">
+			<div class="star glyphicon glyphicon-star-empty"></div>
 			<img src="../Images/food5.jpg" />
-			<div class ="container-fluid">
+			<div class ="container-fluid cardcontent">
 				<div class ="image"></div>
 				<div class = "description">
 					<div class ="location">2235 3rd Street, San Francisco</div>
@@ -197,8 +223,9 @@
 		</div>
 	
 		<div class="pin">
-			<img src="http://cssdeck.com/uploads/media/items/6/6f3nXse.png" />
-			<div class ="container-fluid">
+			<div class="star glyphicon glyphicon-star-empty"></div>
+			<img src="../Images/food4.jpg" />
+			<div class ="container-fluid cardcontent">
 				<div class ="image"></div>
 				<div class = "description">
 					<div class ="location">2235 3rd Street, San Francisco</div>
@@ -211,4 +238,5 @@
 </div>
 </body>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
 </html>
