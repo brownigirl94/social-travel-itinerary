@@ -153,6 +153,14 @@
 	line-height: 17px;
 }
 
+.status{
+	padding-top: 3px;
+	color: #727b8a;
+	font-weight:normal;
+	font-size:13px;
+	line-height: 16px; 
+}
+
 
 /* pinterest version 2 */ 
 
