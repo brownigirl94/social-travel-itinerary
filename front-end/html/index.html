@@ -1,0 +1,129 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+<!-- Bootstrap Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
+<link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<div id="fb-root"></div>
+
+
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "https://connect.facebook.net/en_US/sdk.js%23xfbml=1&version=v2.3&appId=875842505804679";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+
+
+
+<section class="cover">
+	<div class="inner">
+    <div id="slideshow">
+           <div>
+             <img class ="backgroundphotos" src="https://dl.dropboxusercontent.com/u/13042275/image1.jpg">
+           </div>
+           <div>
+             <img class ="backgroundphotos" src="https://dl.dropboxusercontent.com/u/13042275/image3.jpg">
+           </div>
+           <div>
+             <img class ="backgroundphotos" src="https://dl.dropboxusercontent.com/u/13042275/image4.jpg">
+           </div>
+          <div>
+             <img class ="backgroundphotos" src="https://dl.dropboxusercontent.com/u/13042275/image5.jpg">
+           </div>
+          <div>
+             <img class ="backgroundphotos" src="https://dl.dropboxusercontent.com/u/13042275/image10.jpg">
+           </div>
+          <div>
+             <img class ="backgroundphotos" src="https://dl.dropboxusercontent.com/u/13042275/image9.jpg">
+           </div>
+          <div>
+             <img class ="backgroundphotos" src="https://dl.dropboxusercontent.com/u/13042275/image11.jpg">
+          </div>
+
+          </div> 
+
+
+          <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <h1 class="brand-heading">Wanderly</h1>
+                        <p class="intro-text">......</p>
+                    
+
+                    <div class="fb-login-button" data-max-rows="1" data-size="medium" data-show-faces="false" data-auto-logout-link="false">
+                    </div>
+                    
+                    
+
+                     <div class ="center"> 
+                        <div class="input-group">
+                           <input type="text" class="form-control" placeholder="Where would you like to go?">
+                           <span class="input-group-btn">
+                           <a href="dashboard2.html"><button class="btn btn-default" type="button"> Search</button></a>
+                           </span>
+                        </div>
+                    </div> 
+
+                    </div>
+
+          </div>
+</div>
+
+
+</section>
+
+  <section class="social block">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-sm-12 social">
+                    <h3 class="section-title"></h3>
+                    <ul class="list-inline">
+                        <!--
+                        <li><a href="" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                        <li><a href=""><i class="fa fa-envelope-o"></i></a></li>
+                    </ul>
+                -->
+                </div>
+                <div class="col-md-12 text-center foot-note">
+                    <p><small>&copy; 2015 Wanderly. All Rights Reserved.</small></p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+<script>
+
+    $("#slideshow > div:gt(0)").hide();
+
+setInterval(function() { 
+  $('#slideshow > div:first')
+    .fadeOut(100)
+    .next()
+    .fadeIn(100)
+    .end()
+    .appendTo('#slideshow');
+},  3000);
+    
+</script>    
+</body>
+</html>
