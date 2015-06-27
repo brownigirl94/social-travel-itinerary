@@ -1,0 +1,157 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+<!-- Bootstrap Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
+<link href="fullscreen.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand" href="./index.html">Wanderer</a>
+            </div>
+
+            <!-- Nav bar -->
+            <div class="navbar-collapse navbar-right navbar-main-collapse collapse" style="height: 1px;">
+                    <ul class="nav navbar-nav">
+                    <li class="page-scroll active">
+                    <a href="./Wanderer_File/intro"></a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="./index.html">Log In</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="./index.html">Contect</a>
+                    </li>
+                </ul>
+
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+
+
+<section class="cover">
+	<div class="inner">
+    <div id="slideshow">
+           <div>
+             <img class ="backgroundphotos" src="https://dl.dropboxusercontent.com/u/13042275/image1.jpg">
+           </div>
+           <div>
+             <img class ="backgroundphotos" src="https://dl.dropboxusercontent.com/u/13042275/image3.jpg">
+           </div>
+           <div>
+             <img class ="backgroundphotos" src="https://dl.dropboxusercontent.com/u/13042275/image4.jpg">
+           </div>
+          <div>
+             <img class ="backgroundphotos" src="https://dl.dropboxusercontent.com/u/13042275/image5.jpg">
+           </div>
+          <div>
+             <img class ="backgroundphotos" src="https://dl.dropboxusercontent.com/u/13042275/image10.jpg">
+           </div>
+          <div>
+             <img class ="backgroundphotos" src="https://dl.dropboxusercontent.com/u/13042275/image9.jpg">
+           </div>
+          <div>
+             <img class ="backgroundphotos" src="https://dl.dropboxusercontent.com/u/13042275/image11.jpg">
+           </div>
+</div>
+
+
+
+<address>
+    	You can reach me at:<br>
+        meg@megmurry.com<br>
+        Providence, RI<br>
+        410.555.1212
+    </address>
+    </div>
+</section>
+
+<section class="about-me block">
+        <div class="container">
+            <div class="row">
+            	<div class="col-md-8 text-center">
+                    <h2 class="section-title">Howdy, y'all.</h2>
+                    <p>Lorem ipsum text.</p>
+                    <span class="fa fa-leaf"></span>
+                </div>
+
+            </div>
+        </div>
+</section>
+
+<!-- Latest compiled and minified JavaScript
+
+<section class="portfolio">
+        <div class="container-fluid">
+            <div class="row-fluid">
+                <div class="col-md-4 col-sm-4te col-xs-12">
+                <div class="caption_photo"><h6>ILLUSTRATION</h6></div>
+                <img src="images/0d653dcaa2a171ae7a4bb33f8d0a3eb4.jpg"></div>
+                <div class="col-md-4 col-sm-4 col-xs-12">
+                <div class="caption_photo"><h6>DESIGN</h6></div>
+                <img src="images/a28cca331fdddd7bd7f4a6d9cbc4aa8d.jpg"></div>
+                <div class="col-md-4 col-sm-4 col-xs-12">
+                <div class="caption_photo"><h6>BLOG</h6></div>
+                <img src="images/08fc1fd0a7802fa9b09e5428c206009b.jpg"></div>
+            </div>
+        </div>
+    </section>
+ -->    
+    
+  <section class="social block">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-sm-12 social">
+                    <h3 class="section-title">Let's Connect</h3>
+                    <ul class="list-inline">
+                        <li><a href="" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                        <li><a href=""><i class="fa fa-envelope-o"></i></a></li>
+                    </ul>
+                </div>
+                <div class="col-md-12 text-center foot-note">
+                    <p><small>&copy; 2015 Meg Murry. All Rights Reserved.</small></p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+<script>
+
+    $("#slideshow > div:gt(0)").hide();
+
+setInterval(function() { 
+  $('#slideshow > div:first')
+    .fadeOut(1000)
+    .next()
+    .fadeIn(2000)
+    .end()
+    .appendTo('#slideshow');
+},  3000);
+    
+</script>    
+</body>
+</html>

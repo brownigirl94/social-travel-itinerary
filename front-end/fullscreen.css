@@ -1,0 +1,152 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,300);
+@import url(http://fonts.googleapis.com/css?family=Montserrat);
+
+
+@charset "UTF-8";
+
+* {
+    -webkit-font-smoothing: antialiased;
+    border-radius: 0 !important
+}
+
+body, html {
+    height: 100%
+}
+
+body {
+    background-color: #f3efed;
+    font-size: 15px;
+    color: #5a5347
+}
+
+
+p {
+    line-height: 1.6 !important
+}
+
+
+body {
+    background-color: #e7e7e7;
+    text-align: center;
+}
+
+
+#sampletext {
+  position: absolute; 
+  font : italic bold 60px arial;
+  color : #aaaaaa;
+  margin-top : 200px;
+}
+
+
+#slideshow > div { 
+    position: absolute; 
+    top: 0px; 
+    left: 0px; 
+    right: 0px; 
+    bottom: 0px; 
+}
+
+.backgroundphotos {
+    background-repeat: none;
+    width: 100%;
+    background-position: fixed center;
+    height: 100%;
+}
+
+
+.cover {
+    display: table;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    color: #fff
+}
+
+
+.cover .inner {
+    display: table-cell;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.cover address {
+    position: absolute;
+    bottom: 100px;
+    width: 100%;
+    text-align: center;
+	text-shadow: 2px 1px #928E8E;
+    color: #fff; !important
+	
+}
+
+.about-me {
+    -webkit-transition: background-position 300ms ease 0s;
+    transition: background-position 300ms ease 0s;
+    background-size: cover;
+    background-color:#ffffff;
+    color: #343230;
+    position: relative;
+    padding: 100px 0
+}
+
+.about-me .section-title {
+    color: #343230;
+}
+
+.about-me .col-md-8 {
+    float: none;
+    margin: 0 auto;
+    display: block;
+    position: relative;
+    z-index: 2;
+}
+
+.portfolio .col-md-4, .portfolio .container-fluid {
+    padding: 0;
+}
+
+.portfolio img {
+    width: 100%;
+}
+
+.caption_photo {
+	position:absolute;
+	top:45%;
+    width: 100%;
+    text-align: center;
+	z-index:999;
+}
+
+.caption_photo h6 {
+	color:#fff;
+	font-size:30px;
+	letter-spacing:1px;
+	text-shadow: 2px 1px #928E8E;
+}
+	
+
+.social {
+    text-align: center
+}
+
+.social .section-title {
+    font-size: 20px;
+    border-bottom: 0
+}
+
+.social a {
+    color: inherit;
+    font-size: 20px
+}
+
+
+@media (max-width:768px) {
+    .cover address {
+        bottom: 10px
+    }
+
+    .social .col-md-4 {
+        margin-bottom: 30px
+    }
+}
