@@ -1,0 +1,182 @@
+.bg-image {
+	background: url("../images/travel2_resized.jpg") no-repeat fixed center; 
+	background-size: cover; 
+	position:relative;
+	height: 250px;
+	width: 100%;
+	padding-top: 10px; 
+	padding-bottom: 10px;
+	margin-bottom: -50px;
+}
+
+.title {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 50px;
+	color: #fff;
+	padding-left: 60px;
+	padding-top: 80px;
+	float: left;
+	text-shadow: 2px 2px 4px #000000;
+}
+
+.navtitle {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 20px;
+	color: #ffffff;
+}
+
+.navtitle:hover {
+	color: #000000;
+}
+
+.navtitle:active {
+	color: #000000;
+}
+
+
+/* pinterest version 1 */ 
+
+#wrapper {
+	width: 90%;
+	max-width: 1100px;
+	min-width: 380px;
+	margin: 50px auto;
+}
+
+#columns {
+	-webkit-column-count: 3;
+	-webkit-column-gap: 10px;
+	-webkit-column-fill: auto;
+	-moz-column-count: 3;
+	-moz-column-gap: 10px;
+	-moz-column-fill: auto;
+	column-count: 3;
+	column-gap: 15px;
+	column-fill: auto;
+}
+
+.pin {
+	display: inline-block;
+	background: #FEFEFE;
+	border: 2px solid #FAFAFA;
+	box-shadow: 0 1px 2px rgba(34, 25, 25, 0.4);
+	margin: 0 2px 15px;
+	-webkit-column-break-inside: avoid;
+	-moz-column-break-inside: avoid;
+	column-break-inside: avoid;
+	padding: 15px;
+	padding-bottom: 5px;
+	background: -webkit-linear-gradient(45deg, #FFF, #F9F9F9);
+	opacity: 1;
+	-webkit-transition: all .2s ease;
+	-moz-transition: all .2s ease;
+	-o-transition: all .2s ease;
+	transition: all .2s ease;
+}
+
+.pin img {
+	width: 100%;
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 10px;
+	margin-bottom: 8px;
+}
+
+.pin p {
+	font: 12px/18px Arial, sans-serif;
+	color: #333;
+	margin: 0;
+}
+
+@media (min-width: 480px) {
+	#columns {
+		-webkit-column-count: 2;
+		-moz-column-count: 2;
+		column-count: 2;
+	}
+}
+
+@media (min-width: 480px) {
+	#columns {
+		-webkit-column-count: 2;
+		-moz-column-count: 2;
+		column-count: 2;
+	}
+}
+
+@media (min-width: 1100px) {
+	#columns {
+		-webkit-column-count: 3;
+		-moz-column-count: 3;
+		column-count: 3;
+	}
+}
+
+@media (max-width: 480px) {
+	#columns {
+		-webkit-column-count: 1;
+		-moz-column-count: 1;
+		column-count: 1;
+	}
+}
+
+
+/* amendments to pinterest cards */ 
+.image{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%; /*don't forget prefixes*/
+  background-image: url("../images/person.jpg");
+  background-position: center center;
+  /* as mentioned by Vad: */
+  background-size: cover;
+  float:left;
+  display:block;
+  margin-right: 15px;
+  margin-left: -20px;
+}
+
+.description{
+	font-size: 13px;
+	display: block;
+}
+
+.location {
+	font-size: 15px;
+	display: block;
+	font-weight:bold;
+}
+
+.name {
+	color: #28487d;
+	font-weight:normal;
+	font-size:15px;
+	line-height: 17px;
+}
+
+
+/* pinterest version 2 */ 
+
+div#columns figure {
+background: #fefefe;
+border: 2px solid #fcfcfc;
+box-shadow: 0 1px 2px rgba(34, 25, 25, 0.4);
+margin: 0 2px 15px;
+padding: 15px; padding-bottom: 10px;
+transition: opacity .4s ease-in-out;
+column-break-inside: avoid;
+display: inline-block;
+}
+div#columns figure img {
+width: 100%; height: auto;
+border-bottom: 1px solid #ccc;
+padding-bottom: 15px;
+margin-bottom: 5px;
+}
+
+@media screen and (max-width: 750px) {
+#columns { column-gap: 0px; }
+#columns figure { width: 100%; }
+}
+
+
+
